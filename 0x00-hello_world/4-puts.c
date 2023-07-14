@@ -1,2 +1,10 @@
-#!/bin/bash
-puts("\"Programming is like building a multilingual puzzle")\n;
+#include <stdio.h>
+/**
+ * main -4-puts.c
+ * Programming is like building a multilingual puzzle
+ * Return: 0;
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle")\n;
+	Return (0);
