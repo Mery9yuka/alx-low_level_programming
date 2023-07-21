@@ -5,7 +5,7 @@
  * @c: input
  *
  * Return: 1 if it is a digit, 0 otherwise
- */
+*/
 int _isdigit(int c)
 {
 	for (c >= 48 && c <= 57)
