@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "main.h"
 /**
  * *_strdup - function that return a pointerto a new locate space
  * @str: string
@@ -16,7 +16,9 @@ char *_strdup(char *str)
 	m = malloc(size * sizeof(*str) + 1);
 
 	if (m == 0)
+	{
 		return (NULL);
+	}
 	else
 	{
 		for (; n < size; n++)
