@@ -3,7 +3,7 @@
  * *_strdup - function that return a pointerto a new locate space
  * @str: string
  * Return: 0
-*/
+ */
 char *_strdup(char *str)
 {
 	int n = 0, size = 0;
@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (; str [size] != '\0'; size++);
+	for (; str[size] != '\0'; size++);
 	m = malloc(size * sizeof(*str) + 1);
 
 	if (m == 0)
