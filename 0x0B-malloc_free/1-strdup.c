@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * *_strdup - function that return a pointerto a new locate space
  * @str: string
