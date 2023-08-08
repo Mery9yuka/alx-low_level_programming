@@ -1,6 +1,4 @@
 #include <stdlib.h>
-#include <string.h>
-
 /**
  * *_strdup - function that return a pointerto a new locate space
  * @str: string
