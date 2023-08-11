@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 	for (n--)
 		*s++ = b;
 	
-	return (s);
+	return (j);
 }
 /**
  * _calloc - Allocates memory for an array using malloc
@@ -22,7 +22,6 @@ char *_memset(char *s, char b, unsigned int n)
  * Return: A pointer to the allocated memory, or NULL if the allocation fails
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
-
 {
 	char *i;
 
