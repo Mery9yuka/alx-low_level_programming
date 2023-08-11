@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-
 /**
  * _memset - fills memory with a constant byte
  * @s: pointer to put the constant
@@ -28,7 +26,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *i;
 
-	if (size == 0 || nmemb == 0)	
+	if (size == 0 || nmemb == 0)
 		return (NULL);
 	i = malloc(sizeof(int) * nmemb);
 
