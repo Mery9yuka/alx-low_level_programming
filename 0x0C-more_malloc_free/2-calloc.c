@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
 * _memset - fills memory with a constant byte
 * @s: pointer to put the constant
@@ -9,12 +8,11 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int j;
+	char *j = s;
 
-	for (j = 0;  < n; j++)
-	{
-		s[j] = b;
-	}
+	for (n--)
+		*s++ = b;
+	
 	return (s);
 }
 /**
