@@ -25,7 +25,7 @@ char *_memset(char *s, char b, unsigned int n)
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *i;
+	char *i;
 
 	if (size == 0 || nmemb == 0)
 		return (NULL);
