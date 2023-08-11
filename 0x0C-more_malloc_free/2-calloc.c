@@ -7,7 +7,7 @@
  * @b: constant
  * @n: max byte to use
  * Return: s
- */
+*/
 char *_memset(char *s, char b, unsigned int n)
 {
 	char *j = s;
@@ -22,7 +22,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @nmemb: array length
  * @size: The size of each element in bytes
  * Return: A pointer to the allocated memory, or NULL if the allocation fails
- */
+*/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *i;
