@@ -5,10 +5,11 @@
  * @size: size of array
  * @cmp: campare function
  * Return: int index
-*/
+ */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
+
 	if (array && size && cmp)
 		while (i < size)
 		{
