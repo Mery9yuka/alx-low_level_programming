@@ -26,6 +26,6 @@ int (*get_op_func(char *s))(int, int)
 		i++;
 	}
 
-	return (0);
+	return (NULL);
 
 }
