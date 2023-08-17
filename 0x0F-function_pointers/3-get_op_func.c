@@ -1,4 +1,5 @@
 #include "3-calc.h"
+#include <stdlib.h>
 /**
  * get_op_func - returns the pointer to the right op func
  * @s: string operator
@@ -19,7 +20,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		if (strcmp(s, ops[i].op) == 0)
+		if (s && s[0] == ops[i].op[0] && !s[1])
 			return (ops[i].f);
 		i++;
 	}
