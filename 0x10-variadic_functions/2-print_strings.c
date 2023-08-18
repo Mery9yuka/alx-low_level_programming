@@ -9,7 +9,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	int i = n;
-	char *s:
+	char *s;
 	va_list ap;
 
 	if (!n)
