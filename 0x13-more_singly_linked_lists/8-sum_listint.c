@@ -2,7 +2,7 @@
 
 
 /**
- * sum_listint - function that returns the sum of all the data (n) of a linked list
+ * sum_listint - function return the sum of all the data (n) of a linked list
  * @head: pointer to head of the list.
  * Return: sum of all the data (n) in list, or 0 if empty
  */
