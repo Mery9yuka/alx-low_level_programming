@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdio.h>
 /**
  * print_listint - function that prints all the elements of a linked list
  * @h: pointer to head of a list
