@@ -2,7 +2,7 @@
 
 
 /**
- * insert_nodeint_at_index - function that insert  a new node at a given position.
+ * insert_nodeint_at_index - function insert new node at a given position
  * @head: pointer to pointer of first node of the list
  * @idx: index of the list where the new node must be added.
  * @n: int data for a new node.
