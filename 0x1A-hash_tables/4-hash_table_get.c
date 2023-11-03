@@ -6,7 +6,7 @@
  * @ht: a pointer to the hash table.
  * @key: the key to search for in the hash table.
  * Return: NULL If the key is not found,
- * otherwise the value associated with the element 
+ * otherwise the value associated with the element
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
